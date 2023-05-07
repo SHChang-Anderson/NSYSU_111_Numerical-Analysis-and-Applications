@@ -11,7 +11,6 @@ a = 0
 b = 0.8
 # Actual solution 
 trueans, err = integrate.quad(f1,a,b)
-#print(trueans)
 
 
 # Two Point Gauss Quadrature Rule
@@ -59,10 +58,6 @@ for i in range(0,100):
 
 
 
-# x_vals = np.linspace(-4, 4, 1000)
-
-
-# y_vals = norm.pdf(x_vals, loc=0, scale=1)
 
 
 
