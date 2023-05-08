@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-f_range = 10 
+f_range = 30
 img = cv2.imread('DemoIMG_1.png', cv2.IMREAD_GRAYSCALE)
 rows, cols = img.shape
 cy, cx = int(rows / 2), int(cols/2)
@@ -50,7 +50,7 @@ cv2.destroyAllWindows()
 
 
 
-f_range = 25 
+f_range = 20
 img = cv2.imread('DemoIMG_1.png', cv2.IMREAD_GRAYSCALE)
 rows, cols = img.shape
 cy, cx = int(rows / 2), int(cols/2)

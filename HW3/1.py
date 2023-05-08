@@ -21,7 +21,7 @@ x2 = (b-a)/2 * (1 / math.sqrt(3)) + (b+a) /2
 guessans = c1 * f1(x1) + c2 * f1(x2)
 #print(guessans)
 
-print(abs((guessans - trueans) / trueans ))
+print(abs((guessans - trueans) / trueans )*100)
 
 
 
