@@ -21,6 +21,6 @@ This project requires [matplotlib, numpy, cv2].
  - Run 2d.py to combine the filtered DemoIMG_1.png with DemoIMG_6.png and display the resulting image. The threshold values for the low-pass and high-pass filters are adjustable.
 
 Note:
-## All files have been written in Python 3. 
+*All files have been written in Python 3.*
 
 
